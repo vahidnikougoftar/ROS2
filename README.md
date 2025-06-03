@@ -20,8 +20,8 @@ This project shows you how to:
 ros2_ec2_docker_setup/
 ├── ros2_ws/
 │   └── src/
-│       └── my_package/
-│           ├── my_package/
+│       └── ros2_pubsub_package/
+│           ├── ros2_pubsub_package/
 │           │   ├── publisher_node.py
 │           │   └── subscriber_node.py
 │           ├── package.xml
@@ -86,7 +86,7 @@ ros2_ec2_docker_setup/
     apt update && apt install -y python3-colcon-common-extensions nano
     cd /ros2_ws
     mkdir -p src && cd src
-    ros2 pkg create --build-type ament_python my_package
+    ros2 pkg create --build-type ament_python ros2_pubsub_package
     ```
 
 ---
@@ -173,7 +173,7 @@ rclpy.shutdown()
 
 Example:
 ```bash
-./aws/start-ec2.sh i-xxxxxxxxx us-west-2
+./aws/start-ec2.sh i-xxxxxxxxx us-east-1
 ```
 
 ---
