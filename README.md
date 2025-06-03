@@ -1,4 +1,4 @@
-# ROS 2 (Humble) on AWS EC2 using Docker - Python Publisher/Subscriber Demo
+## ROS 2 (Humble) on AWS EC2 using Docker - Python Publisher/Subscriber Demo
 
 Welcome! This repository helps you get started with **ROS 2 Humble** using **Python** on a lean, low-cost **AWS EC2 instance** via **Docker**. It's designed as a beginner-friendly project for your robotics and cloud portfolio.
 
